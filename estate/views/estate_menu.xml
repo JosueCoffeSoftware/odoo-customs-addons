@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<odoo>
+    <data>
+        <!-- Menu Estate Managment -->
+        <menuitem id="menu_real_estate" name="Estate Managment" sequence="10">
+            <menuitem id="menu_advertisements" name="Advertisements" sequence="10">
+                <menuitem id="menu_estate_property_list" name="Properties" action="action_estate_property_list" sequence="10"/>
+            </menuitem>
+            <menuitem id="menu_settings_estate" name="Settings" sequence="10">
+                <menuitem id="menu_estate_property_type" name="Property Type" action="action_estate_property_type_list" sequence="10" />
+                <menuitem id="menu_estate_property_tags" name="Property Tags" action="action_estate_property_tag_list" sequence="10" />
+            </menuitem>
+        </menuitem>
+        <!-- Menu Apps -->
+        <menuitem id="menu_apps" name="Apps" sequence="10"/>
+        <!-- Menu Settings -->
+        <menuitem id="menu_settings" name="Settings" sequence="10"/>
+    </data>
+</odoo>
